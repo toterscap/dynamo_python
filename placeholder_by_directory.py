@@ -60,7 +60,7 @@ for index, value in enumerate(sheet_number):
 	elif newsheet.SheetNumber[0] == "A":
 		p.Set("01 - ARCHITECTURE")
 		
-	p.Set(index)
+
 	date = newsheet.get_Parameter(BuiltInParameter.SHEET_ISSUE_DATE)
 	date.Set("1968")
 
